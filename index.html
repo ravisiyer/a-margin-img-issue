@@ -14,7 +14,7 @@
           >CSS main-book img selector has declaration: 'max-width: 90%;'</a
         >
         <br /><span>
-          Horizontal scrollbar appears at very low window width (less than
+          Horizontal scrollbar appears only at very low window width (less than
           200px) and so not an issue
         </span>
       </li>
@@ -33,10 +33,17 @@
           main-book a selector sets margin to 0</a
         >
         <br /><span>
-          Horizontal scrollbar appears at very low window width (less than
+          Horizontal scrollbar appears only at very low window width (less than
           200px) and so not an issue
         </span>
       </li>
     </ul>
+    <p>
+      Removing the style statement from the anchor element in which the image is
+      contained also fixes the problem even if img max-width is 100% but that
+      involves editing the HTML file and so is not feasible as a solution for
+      BFTB app. However, just for capturing that test, I have included
+      <a href="imw100pc-BB-small7.html">the page</a>.
+    </p>
   </body>
 </html>
