@@ -11,7 +11,7 @@
     <ul>
       <li>
         <a href="imw90pc-BB-small6.html"
-          >CSS main-book img selector has declaration: 'max-width: 90%;'</a
+          >CSS 'main-book img' selector has declaration: 'max-width: 90%;'</a
         >
         <br /><span>
           Horizontal scrollbar appears only at very low window width (less than
@@ -20,7 +20,7 @@
       </li>
       <li>
         <a href="imw100pc-BB-small6.html"
-          >CSS main-book img selector has declaration: 'max-width: 100%;'</a
+          >CSS 'main-book img' selector has declaration: 'max-width: 100%;'</a
         >
         <br /><span
           >Horizontal scrollbar appears at medium window width (less than 700px)
@@ -29,8 +29,8 @@
       </li>
       <li>
         <a href="imw100pc-BB-smallFixed.html"
-          >CSS main-book img selector has declaration: 'max-width: 100%;' and
-          main-book a selector sets margin to 0</a
+          >CSS 'main-book img' selector has declaration: 'max-width: 100%;' and
+          'main-book a' selector sets margin to 0 and uses important</a
         >
         <br /><span>
           Horizontal scrollbar appears only at very low window width (less than
@@ -39,8 +39,14 @@
       </li>
     </ul>
     <p>
+      I also tried out
+      <a href="imw100vw-BB-small6.html">100vw for img max-width</a>. As
+      expected, it did not solve the issue of horizontal scrollbar appearing at
+      less than around 700px.
+    </p>
+    <p>
       Removing the style statement from the anchor element in which the image is
-      contained also fixes the problem even if img max-width is 100% but that
+      contained, also fixes the problem even if img max-width is 100%. But that
       involves editing the HTML file and so is not feasible as a solution for
       BFTB app. However, just for capturing that test, I have included
       <a href="imw100pc-BB-small7.html">the page</a>.
